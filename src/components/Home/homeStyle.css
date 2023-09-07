@@ -1,0 +1,30 @@
+.info {
+  background-color: #1abc9c;
+  padding-block-start: 6rem;
+}
+.img {
+  width: 23%;
+  margin-inline: auto;
+}
+
+.content h2 {
+  font-weight: 700;
+  position: relative;
+}
+
+.content h2::after {
+  content: "";
+  height: .4rem;
+  width: 35%;
+  background-color: white;
+  position: absolute;
+  top: 133%;
+  left: 33%;
+}
+.content i{
+    position: relative;
+    width: 2.5rem;
+    height: 1.5rem;
+    background-color: #1abc9c;
+    z-index: 33;
+}

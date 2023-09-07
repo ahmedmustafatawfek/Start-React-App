@@ -1,0 +1,33 @@
+.about {
+  padding-block-start: 13rem;
+  padding-block-end: 5rem;
+  background-color: #1abc9c;
+}
+.text {
+  width: 80%;
+}
+.header h2 {
+  font-size:2.5rem;
+}
+
+h2.title {
+  font-weight: 700;
+  position: relative;
+}
+
+h2.title::after {
+  content: "";
+  height: 0.4rem;
+  width: 30%;
+  background-color: white;
+  position: absolute;
+  top: 116%;
+  left: 35%;
+}
+i.star {
+  position: relative;
+  width: 2.5rem;
+  height: 1.5rem;
+  background-color: #1abc9c;
+  z-index: 33;
+}

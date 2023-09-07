@@ -1,0 +1,47 @@
+.contacts {
+  padding-block-start: 6rem;
+  padding-block-end: 2rem;
+  background-color: white;
+}
+
+h2.titlee {
+  font-weight: 700;
+  position: relative;
+  color: #2c3e50;
+}
+
+h2.titlee::after {
+  content: "";
+  height: 0.4rem;
+  width: 30%;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 116%;
+  left: 35%;
+}
+i.starr {
+  color: #2c3e50;
+  position: relative;
+  width: 2.5rem;
+  height: 1.5rem;
+  background-color: white;
+  z-index: 33;
+}
+
+button.btn {
+  background-color: #1abc9c;
+  color: white;
+}
+.inputs{
+    width: 60%;
+}
+
+.inputs input{
+    border: unset;
+    border-bottom: solid .1rem rgba(128, 128, 128, 0.288);
+}
+
+.inputs input:focus{
+    /* border: unset; */
+    outline: unset;
+}
